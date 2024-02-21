@@ -1,0 +1,86 @@
+@import url("https://use.typekit.net/pbk4wgt.css");
+
+
+/*basic page formatting*/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+main{
+    max-width: 50rem;
+}
+
+
+main{
+    padding: 1rem 2rem 1rem 2rem;
+    max-width: 38rem;
+    margin: 1rem auto;
+}
+
+
+/*typography*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+html{
+    background-color: #FFFFFF;
+    color: #362d25;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
+    font-weight: 400;
+}
+
+
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'filson-pro', 'serif', 'georgia', 'Times New Roman';
+    color: #8f905a;
+    line-height: 1.2em;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Filson-Pro', 'serif', 'georgia', 'Times New Roman';
+    color: #8f905a;
+    line-height: 1.2em;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Filson-pro', 'serif', 'georgia', 'Times New Roman';
+    color: #8f905a;
+    line-height: 1.2em;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+ul{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+    
+}
