@@ -22,6 +22,7 @@ main{
 }
 
 
+
 /*typography*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,7 +81,36 @@ h3{
 ul{
     list-style-type: none;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.2em;
     
 }
+
+
+ /*media queries*/
+
+
+ @media screen and (min-width: 62rem){
+    html{ 
+        font-size: 1.1rem;
+
+    }
+    .logo1{
+        margin-top: 3rem;
+    }
+  
+}
+  
+
+@media screen and (min-width:80rem) {
+    html{
+        font-size: 1.2rem;
+     }
+
+    }
+
+
+    .logo {
+        width: 100px; /* Adjust the width to your desired size */
+        height: auto; /* Maintain aspect ratio */
+    }
