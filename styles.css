@@ -47,7 +47,7 @@ h1{
     line-height: 1.2em;
     font-style: normal;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-top: 2.5rem;
     
 }
 
@@ -61,6 +61,7 @@ h2{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    margin-top: 2.5rem;
     
 }
 
@@ -73,6 +74,7 @@ h3{
     font-style: italic;
     text-align: center;
     margin-bottom: 1rem;
+    margin-top: 2.5rem;
     
 }
 
@@ -85,6 +87,39 @@ ul{
     line-height: 1.2em;
     
 }
+
+
+.businessnamelist {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    list-style-type: disc;
+    margin-left: 3rem;
+
+}
+
+.aseries{
+    
+    font-size: 1.3rem;
+    font-weight:500;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: .5rem;
+    text-transform: UPPERCASE;
+}
+/*images including logo*/
+.logo {
+    width: 200px; 
+    height: auto; 
+    justify-content: center;
+    margin-top: 1.5rem;
+
+}
+
+.logocenter {
+    text-align: center;
+
+}
+
 
 
  /*media queries*/
@@ -109,8 +144,6 @@ ul{
 
     }
 
+/*make logo get a bit bigger/*
+   
 
-    .logo {
-        width: 100px; /* Adjust the width to your desired size */
-        height: auto; /* Maintain aspect ratio */
-    }
