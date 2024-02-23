@@ -170,11 +170,10 @@ nav .ul{
 }
 
 .border{
-    max-width:80%;
+    max-width:100%;
     height:auto;
     border: 1rem solid #F6E9EC;
     margin-top: 2rem;
-
 }
 
 
