@@ -176,6 +176,27 @@ nav .ul{
     margin-top: 2rem;
 }
 
+/*button*/
+
+.nextbutton{
+border:.2rem solid #8f905a;
+color: #362d25;
+padding: 0.5rem 2rem;
+text-align: center;
+text-decoration: none;
+display: block;
+font-size: 1.2rem;
+font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
+margin: 0 auto;
+transition-duration: 0.4s;
+cursor: pointer;
+align-content: center;
+width: 8rem;
+margin-top: 4rem;
+
+}
+
+
 
  /*media queries*/
 
