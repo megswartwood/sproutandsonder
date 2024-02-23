@@ -144,6 +144,10 @@ footer{
     margin-top: 6rem;
 }
 
+nav .ul{
+   
+}
+
 
 
 /*images including logo*/
@@ -160,6 +164,18 @@ footer{
 
 }
 
+.headersize{
+    text-align: center;
+
+}
+
+.border{
+    max-width:80%;
+    height:auto;
+    border: 1rem solid #F6E9EC;
+    margin-top: 2rem;
+
+}
 
 
  /*media queries*/
