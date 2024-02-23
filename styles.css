@@ -12,10 +12,6 @@
 
 main{
     max-width: 50rem;
-}
-
-
-main{
     padding: 1rem 2rem 1rem 2rem;
     max-width: 38rem;
     margin: 1rem auto;
@@ -23,7 +19,9 @@ main{
 
 
 
-/*typography*/
+
+
+/*typography and typography spacing*/
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -36,6 +34,7 @@ html{
     font-style: normal;
     font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
     font-weight: 400;
+    margin-bottom: 5rem;
 }
 
 
@@ -61,7 +60,7 @@ h2{
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     
 }
 
@@ -74,8 +73,20 @@ h3{
     font-style: italic;
     text-align: center;
     margin-bottom: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 4.5rem;
     
+}
+
+h4{
+    
+    color: #362d25;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
+    font-weight: 800;
+    margin-bottom: .75rem;
+    margin-top: 1.5rem;
+
 }
 
 
@@ -106,6 +117,35 @@ ul{
     margin-top: .5rem;
     text-transform: UPPERCASE;
 }
+
+.dateauthor{
+    font-size: .85rem;
+}
+
+/*design*/
+.stylenav{
+    background-color: #F6E9EC;
+    margin-top:1.5rem;
+}
+
+footer{
+    background-color: #8f905a;
+}
+
+/*overall spacing*/
+.centered{
+    text-align: center;
+
+}
+
+.centeredandmorespace
+{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+
 /*images including logo*/
 .logo {
     width: 200px; 
