@@ -85,7 +85,7 @@ h4{
     font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
     font-weight: 800;
     margin-bottom: .75rem;
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
 
 }
 
@@ -125,7 +125,6 @@ ul{
 /*design*/
 .stylenav{
     background-color: #F6E9EC;
-    margin-top:1.5rem;
 }
 
 footer{
@@ -135,6 +134,7 @@ footer{
 /*overall spacing*/
 .centered{
     text-align: center;
+   
 
 }
 
