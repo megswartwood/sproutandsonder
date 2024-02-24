@@ -119,13 +119,19 @@ ul{
     text-transform: UPPERCASE;
 }
 
-.dateauthor{
+.dateauthorleft{
    
-   text-align: center;
+   text-align: left;
    font-weight: 300;
    font-style: italic;
    
 
+}
+
+.dateauthorright{
+    text-align: right;
+   font-weight: 300;
+   font-style: italic;
 }
 
 /*design*/
