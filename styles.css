@@ -46,7 +46,8 @@ h1{
     line-height: 1.2em;
     font-style: normal;
     text-align: center;
-    margin-top: 2.5rem;
+    
+    
     
 }
 
@@ -84,7 +85,7 @@ h4{
     font-style: normal;
     font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
     font-weight: 800;
-    margin-bottom: .75rem;
+    margin-bottom: 1rem;
     margin-top: 3.5rem;
 
 }
@@ -113,22 +114,45 @@ ul{
     font-size: 1.3rem;
     font-weight:500;
     text-align: center;
-    margin-bottom: 3rem;
+ 
     margin-top: .5rem;
     text-transform: UPPERCASE;
 }
 
 .dateauthor{
-    font-size: .85rem;
+   
+   text-align: center;
+   font-weight: 300;
+   font-style: italic;
+   
+
 }
 
 /*design*/
 .stylenav{
     background-color: #F6E9EC;
+    padding: .75rem;
 }
 
 footer{
     background-color: #8f905a;
+}
+
+/*header*/
+
+.largescreenheader{
+    display: flex;
+    gap: 5%;
+    
+    }
+
+.headersize {
+    width: 25%;
+}
+
+.articletitle{
+    width: 75%;
+
 }
 
 /*overall spacing*/
@@ -144,10 +168,32 @@ footer{
     margin-top: 6rem;
 }
 
-nav .ul{
-   
+.topnav{
+   display: flex;
+   gap: 2rem;
+   width: 30%;
+   margin: 0 auto;
+   justify-content: space-around;
+    text-align: center;
 }
 
+nav .li{
+    display: inline-block;
+}
+
+.dateandauthormotherdiv{
+    display: flex;
+    gap: 4%;
+    margin-top: 2rem;
+}
+
+.authordiv{
+    width: 48%;
+}
+
+.datediv{
+    width: 48%;
+}
 
 
 /*images including logo*/
@@ -156,6 +202,7 @@ nav .ul{
     height: auto; 
     justify-content: center;
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
 
 }
 
@@ -169,12 +216,22 @@ nav .ul{
 
 }
 
+.headersize img{
+    width: 100%;
+    display:block;
+}
+
 .border{
     max-width:100%;
     height:auto;
     border: 1rem solid #F6E9EC;
     margin-top: 2rem;
 }
+
+.allphotos{
+width: 100%;
+}
+
 
 /*button*/
 
@@ -199,8 +256,20 @@ margin-top: 4rem;
 
 
  /*media queries*/
-
-
+ 
+ 
+ 
+ @media  screen and (max-width: 62rem) {
+    .topnav{
+        display: flex;
+        gap: 8rem;
+        width: 30%;
+        margin: 0 auto;
+        justify-content: space-around;
+         text-align: center;
+     }
+ }
+ 
  @media screen and (min-width: 62rem){
     html{ 
         font-size: 1.1rem;
@@ -209,6 +278,10 @@ margin-top: 4rem;
     .logo1{
         margin-top: 3rem;
     }
+
+   
+
+
   
 }
   
@@ -219,6 +292,47 @@ margin-top: 4rem;
      }
 
     }
+
+
+    @media screen and (min-width: 85rem) {
+        html{
+            font-size: 1.3rem;
+        }
+
+    .branding{
+        display: flex;
+        gap: 10%;
+        margin-top: 4rem;
+        
+    }  
+
+    .h2{
+        width: 30%;
+    }
+
+    h2{
+    margin-top: 0rem;
+    }
+
+
+    .p{
+        width: 65%;
+    }
+
+    .logo{
+        width: 300px;
+    }
+    }
+
+  
+
+   
+
+  
+
+    
+
+    
 
 /*make logo get a bit bigger/*
    
