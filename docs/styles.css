@@ -1,0 +1,492 @@
+@import url("https://use.typekit.net/pbk4wgt.css");
+
+
+/*basic page formatting*/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+main{
+    max-width: 50rem;
+    padding: 1rem 2rem 1rem 2rem;
+    max-width: 38rem;
+    margin: 1rem auto;
+}
+
+
+
+
+
+/*typography and typography spacing*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+html{
+    background-color: #FFFFFF;
+    color: #362d25;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'filson-pro', 'serif', 'georgia', 'Times New Roman';
+    color: #8f905a;
+    line-height: 1.2em;
+    font-style: normal;
+    text-align: center;
+    
+    
+    
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Filson-Pro', 'serif', 'georgia', 'Times New Roman';
+    color: #8f905a;
+    line-height: 1.2em;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Filson-pro', 'serif', 'georgia', 'Times New Roman';
+    color: #8f905a;
+    line-height: 1.2em;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 4.5rem;
+    
+}
+
+h4{
+    
+    color: #362d25;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
+    font-weight: 800;
+    margin-bottom: 1rem;
+    margin-top: 3.5rem;
+
+}
+
+p{
+    margin-bottom: .5rem;
+}
+
+ul{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2em;
+    
+}
+
+figcaption{
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'filson-pro', 'serif', 'georgia', 'Times New Roman';
+    color: #362d25;
+    line-height: 1.2em;
+    font-style: italic;
+}
+
+
+.businessnamelist {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    list-style-type: disc;
+    margin-left: 3rem;
+
+}
+
+.aseries{
+    
+    font-size: 1.3rem;
+    font-weight:500;
+    text-align: center;
+ 
+    margin-top: .5rem;
+    text-transform: UPPERCASE;
+}
+
+.dateauthorleft{
+   
+   text-align: left;
+   font-weight: 300;
+   font-style: italic;
+   
+
+}
+
+.dateauthorright{
+    text-align: right;
+   font-weight: 300;
+   font-style: italic;
+}
+
+.footertext{
+    text-align: center;
+    color:#FFFFFF;
+
+}
+
+/*design*/
+.stylenav{
+    background-color: #F6E9EC;
+    padding: .75rem;
+}
+
+footer{
+    background-color: #8f905a;
+    padding: .3rem;
+}
+
+/*header*/
+
+.largescreenheader{
+    display: flex;
+    gap: 5%;
+    
+    }
+
+.headersize {
+    width: 25%;
+}
+
+.articletitle{
+    width: 75%;
+
+}
+
+/*overall spacing*/
+.centered{
+    text-align: center;
+    margin-bottom: 1rem;
+   
+
+}
+
+.centeredandmorespace
+{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.topnav{
+   display: flex;
+   gap: 2rem;
+   width: 30%;
+   margin: 0 auto;
+   justify-content: space-around;
+    text-align: center;
+}
+
+nav .li{
+    display: inline-block;
+}
+
+.dateandauthormotherdiv{
+    display: flex;
+    gap: 4%;
+    margin-top: 2rem;
+}
+
+.authordiv{
+    width: 48%;
+}
+
+.datediv{
+    width: 48%;
+}
+
+
+/*images including logo*/
+.logo {
+    width: 200px; 
+    height: auto; 
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.logocenter {
+    text-align: center;
+
+}
+
+.headersize{
+    text-align: center;
+
+}
+
+.headersize img{
+    width: 100%;
+    display:block;
+}
+
+.border{
+    max-width:100%;
+    height:auto;
+    border: 1rem solid #F6E9EC;
+    margin-top: 2rem;
+}
+
+.allphotos{
+width: 100%;
+}
+
+.socialmedia{
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    gap: 12%;
+    margin: auto;
+
+  
+}
+
+.instagram{
+    width: 44%;
+
+}
+
+.tiktok{
+    width: 44%;
+
+}
+.socialmedia img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+/*button*/
+
+.nextbutton{
+border:.4rem solid #8f905a;
+color: #362d25;
+padding: 0.5rem 2rem;
+text-align: center;
+text-decoration: none;
+display: block;
+font-size: 1.2rem;
+font-family: 'filson-pro', 'sans-serif', 'arial', 'verdana';
+margin: 0 auto;
+transition-duration: 0.4s;
+cursor: pointer;
+align-content: center;
+width: 8rem;
+margin-top: 4rem;
+
+}
+
+
+/*links*/
+a:link{
+    color:#362d25;
+
+    
+ }
+
+ a:visited{
+    color: #362d25;
+    
+ }
+
+ a:hover{
+    color:#362d25;
+    font-weight: 1000;
+ }
+
+ a:focus{
+   outline: #8f905a solid;
+ }
+
+ a:active{
+    border-bottom: 2px solid;
+ }
+
+
+
+ nav a:link{
+    color:#362d25;
+    text-decoration: none;
+ }
+
+ nav a:visited{
+    color: #362d25;
+    
+ }
+
+ nav a:hover{
+    color:#362d25;
+    font-weight: 1000;
+ }
+
+ nav a:focus{
+   outline: #8f905a solid;
+ }
+
+ nav a:active{
+    border-bottom: 2px solid;
+ }
+
+ .nav-link:link{
+
+ color: #362d25;
+ text-decoration: underline;
+
+ }
+
+ .nav-link:visited{
+    color: #362d25;
+ }
+
+ .nav-link:hover{
+    color: #362d25;
+    font-weight: 1000;
+ }
+
+ .nav-link:focus{
+    color: #8f905a solid;
+ }
+
+
+ .nav-link:active{
+    border-bottom: 2px solid;
+ }
+
+ /*media queries*/
+ 
+ @media  screen and (max-width: 30rem){
+
+
+ .headersize {
+    width: 35%;
+}
+
+.articletitle{
+    width: 65%;
+
+}
+ }
+
+ @media  screen and (max-width: 62rem) {
+    .topnav{
+        display: flex;
+        gap: 8rem;
+        width: 30%;
+        margin: 0 auto;
+        justify-content: space-around;
+         text-align: center;
+     }
+
+    
+ }
+ 
+ @media screen and (min-width: 62rem){
+    html{ 
+        font-size: 1.1rem;
+
+    }
+    .logo1{
+        margin-top: 3rem;
+    }
+
+   
+
+
+  
+}
+  
+
+@media screen and (min-width:80rem) {
+    html{
+        font-size: 1.2rem;
+     }
+
+    }
+
+
+    @media screen and (min-width: 85rem) {
+        html{
+            font-size: 1.3rem;
+        }
+
+    .branding{
+        display: flex;
+        gap: 10%;
+        margin-top: 4rem;
+        
+    }  
+
+    .h2{
+        width: 30%;
+    }
+
+
+    .p{
+        width: 65%;
+    }
+
+    .alltitles{
+        display: flex;
+        gap: 10%;
+        margin-top: 4rem;
+        align-items: flex-start;
+    }
+
+    .heading3{
+        width: 30%;
+    }
+
+    .heading3p{
+        width: 65%;
+    }
+
+    h2{
+        margin-top: 0rem;
+        }
+
+    h3{
+        margin-top: 0rem;
+        text-align: left;
+    }
+   
+
+    
+    .logo{
+        width: 300px;
+    }
+
+ 
+    }
+
+   
+
